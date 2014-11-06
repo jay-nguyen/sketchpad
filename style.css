@@ -6,3 +6,9 @@ button {
 	width: 200px;
 	height: 40px;
 }
+
+.grid_container {
+	overflow: auto;
+	width: 960px;
+	margin: auto;
+}
