@@ -8,8 +8,9 @@
 	</head>
 <body>
 	<div class="buttContain">
-		<button id="new_grid">New Grid!</button>
-		<button id="clear_grid">Clear the Grid!</button>
+		<!-- onclick attribute appends javascript function to button id -->
+		<button id="new_grid" onclick="gridFunction(); createGrid()">New Grid!</button>
+		<button id="clear_grid" onclick="removeGrid()">Clear the Grid!</button>
 	</div>
 	<div class="grid_container">
 		<table id="gridTable"></table>
